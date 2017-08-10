@@ -6,8 +6,8 @@ var FacebookStrategy = require('passport-facebook').Strategy;
 
 // CODE FOR FB AUTHENTICATION
 passport.use(new FacebookStrategy({
-    clientID: "1518466381508487",
-    clientSecret: "80b6ebb847f6c30a01fba5893745ddbb",
+    clientID: "YOUR_CLIENT_ID",
+    clientSecret: "YOUR_SECRET_KEY",
     callbackURL: "http://localhost:8888/auth/facebook/callback",
      profileFields: ['id', 'displayName', 'photos', 'email']
   },
