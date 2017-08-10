@@ -1,0 +1,25 @@
+{
+  "name": "facebook-authentication-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PulkitAgg/facebook-authentication-node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PulkitAgg/facebook-authentication-node.js/issues"
+  },
+  "homepage": "https://github.com/PulkitAgg/facebook-authentication-node.js#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1"
+  }
+}
